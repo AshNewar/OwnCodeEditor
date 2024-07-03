@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* .terminal{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
+.upper{
+  display: grid;
+  grid-template-columns: 1fr 5fr 3fr;
+  height: 100%;
+}
+/* #terminal{
+  padding: 1rem;
+
+} */
+.dir{
+  font-weight: 800;
+ }
+ .files ,.editor{
+  border-right: 3px solid black;
+  padding: 10px;
+ }
